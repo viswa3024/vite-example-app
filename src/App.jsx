@@ -16,7 +16,7 @@ function App() {
        <div>
       <h1>Multi-Select Dropdown Example</h1>
       <MultiSelectDropdown
-        options={['Option 1', 'Option 2', 'Option 3']}
+        options={['Option 1', 'Option 2', 'Option 3',  'Option 4',  'Option 5',  'Option 6',  'Option 7',  'Option 8',  'Option 9',  'Option 10']}
         onChange={handleMultiSelectChange}
       />
       <div>Selected options: {selectedOptions.join(', ')}</div>
