@@ -146,21 +146,9 @@
 .dropdown-list-item {
   padding: 10px;
   cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .dropdown-list-item:hover {
   background: #f0f0f0;
-}
-
-.dropdown-list-item.selected {
-  background: #e6f7ff;
-}
-
-.checkmark {
-  color: #007bff;
-  font-weight: bold;
 }
 
